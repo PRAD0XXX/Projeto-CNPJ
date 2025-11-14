@@ -15,15 +15,13 @@ unzipper
 readline
 
 📂 Estrutura do Projeto
+
 Projeto-CNPJ/
 ├── public/
 ├── server.mjs
 ├── package.json
 ├── package-lock.json
 └── README.md
-
-
-Obs.: a pasta node_modules/ não deve ser enviada ao GitHub.
 
 🔎 O que o projeto faz?
 
@@ -38,6 +36,7 @@ Retorna até 200 resultados.
 Disponibiliza tudo via API.
 
 📡 Endpoint da API
+
 GET /api/barueri
 
 Exemplo de retorno:
@@ -54,13 +53,17 @@ Exemplo de retorno:
 }
 
 🛠️ Como executar o projeto
+
 1. Instale as dependências
+
 npm install
 
 2. Inicie o servidor
+
 node server.mjs
 
 3. Acesse no navegador
+
 http://localhost:3000/api/barueri
 
 🗄️ Sobre o banco de dados
