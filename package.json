@@ -1,0 +1,15 @@
+{
+  "name": "cnpj-barueri-app",
+  "version": "1.0.0",
+  "description": "Consulta primeiros 200 CNPJs de Barueri usando os dados da Receita Federal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-fetch": "^2.6.7",
+    "unzipper": "^0.10.11",
+    "csv-parse": "^5.5.0"
+  }
+}
